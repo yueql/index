@@ -13,10 +13,8 @@
  /*global jQuery */
  jQuery(function ($) {
   'use strict';
-
-
-
-  var App = {
+   console.log(123);
+   var App = {
     $options: {},
     $loader: $(".loader"),
     $animationload: $(".animationload"),
